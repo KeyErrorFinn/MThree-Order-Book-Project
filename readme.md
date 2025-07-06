@@ -15,6 +15,7 @@
 - [Table of Contents](#table-of-contents)
 - [About the Project](#about-the-project)
 - [How it Works](#how-it-works)
+- [How to Run](#how-to-run)
 - [Possible Additions](#possible-additions)
 
 ## About the Project
@@ -41,6 +42,22 @@ It is designed to be intuitive and easy to use, demonstrating the fundamental co
 - **Order Addition:** When a new order is submitted, it validates the inputs, generates a unique ID, and then adds the order details *(Name, Order Type, Price, Quantity, Time, and Colour)* to the orderbook.
 - **Buying/Selling Stocks:** The selection dropdowns automatically populate with all unique stock names, then once a user selects the stock name, a new dropdown appears with all stock info for that stock, and once a user has selected the correct information and submitted it, it validates the inputted information, then it removes a the selected stock from the order book. If there is a stock with the exact same information, it will remove the oldest stock.
 - **Real-time Update:** The orderbook display automatically refreshes to show the latest buy and sell orders.
+
+## How to Run
+
+1. Make sure to have all the files in a folder.
+2. Open up a terminal and set your path to the folder.
+3. Install the required packages by entering the following in your terminal:
+
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the script using streamlit by enterting the following in your terminal:
+
+   ```
+   streamlit run main.py
+   ```
+5. A web page should open and you can access the application there.
 
 ## Possible Additions
 
